@@ -126,9 +126,8 @@
       border: 2px solid #E5A00D;
     }
 
-    .video-wrap iframe {
+    .video-wrap video {
       width: 100%;
-      aspect-ratio: 16/9;
       display: block;
       border: none;
     }
@@ -173,12 +172,13 @@
 
     <!-- Rick Roll -->
     <div class="video-wrap">
-      <iframe
-        src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
-        allow="autoplay; encrypted-media"
-        allowfullscreen
-        title="Rick Roll">
-      </iframe>
+      <video
+        src="rickroll.mp4"
+        autoplay
+        loop
+        controls
+        playsinline>
+      </video>
     </div>
 
     <p class="signed">With love (and zero regrets), <br/><strong>Your Plex Server Admin 😇</strong></p>
